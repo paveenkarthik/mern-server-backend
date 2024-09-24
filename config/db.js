@@ -7,6 +7,7 @@ connection.on('connected',()=>{
     console.log('DB connected');
 })
 
+
 connection.on('error',()=>{
     console.log('Error');
 })
