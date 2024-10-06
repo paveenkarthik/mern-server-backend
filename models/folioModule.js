@@ -16,11 +16,12 @@ const projects=new mongoose.Schema(
         link: {
             type: String,
             required: false,
-        },
-        git: {
-            type: String,
-            required: true,
         }
+        // ,
+        // git: {
+        //     type: String,
+        //     required: true,
+        // }
     }
 )
 const Project=mongoose.model("project",projects);
